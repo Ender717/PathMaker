@@ -20,8 +20,8 @@ namespace PathMaker
 
         public static PathPoint operator +(PathPoint a, PathPoint b) => new PathPoint(a.X + b.X, a.Y + b.Y);
         public static PathPoint operator -(PathPoint a, PathPoint b) => new PathPoint(a.X - b.X, a.Y - b.Y);
-        public static PathPoint operator *(PathPoint a, float b) => new PathPoint(a.X * b, a.Y * b);
-        public static PathPoint operator *(float a, PathPoint b) => new PathPoint(a * b.X, a * b.Y);
-        public static PathPoint operator /(PathPoint a, float b) => new PathPoint(a.X / b, a.Y / b);
+        public static PathPoint operator *(PathPoint a, double b) => new PathPoint(a.X * (float)b, a.Y * (float)b);
+        public static PathPoint operator *(double a, PathPoint b) => new PathPoint((float)a * b.X, (float)a * b.Y);
+        public static PathPoint operator /(PathPoint a, double b) => new PathPoint(a.X / (float)b, a.Y / (float)b);
     }
 }

@@ -13,10 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="resources\Over_Under_Field.jpeg" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

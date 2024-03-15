@@ -34,10 +34,9 @@
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1693, 930);
+            ClientSize = new Size(1974, 1189);
             Name = "Form1";
             Text = "PathMaker";
-            MouseClick += Form1_MouseClick;
             ResumeLayout(false);
         }
 
